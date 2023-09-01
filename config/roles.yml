@@ -1,0 +1,24 @@
+admin:
+ - previlages:
+  - create_key
+  - change_key
+  - acces_key
+  - delete_key
+dev:
+ - previlages:
+  - change_key
+  - create_key
+
+keyer:
+ - previlages:
+  - create_key
+  - change_key
+  - acces_key
+
+trusted:
+ - previlages:
+  - *
+
+child:
+ - previlages:
+  - encript_data

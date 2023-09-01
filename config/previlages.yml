@@ -1,0 +1,7 @@
+previlages:
+ - create_key
+ - change_key
+ - delete_key
+ - recover_key
+ - acces_key
+ - decript_data
